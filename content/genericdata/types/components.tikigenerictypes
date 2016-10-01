@@ -16,31 +16,31 @@
 	<struct name="LifeTimeComponentInitData">
 		<field type="timems" name="lifeTimeInMs" />
 	</struct>
-	<enum name="PhysicsShapeType">
+	<enum name="Physics3dShapeType">
 		<value name="Box" />
 		<value name="Capsule" />
 		<value name="Sphere" />
 	</enum>
-	<struct name="PhysicsComponentShapeInitData">
-		<field type="PhysicsShapeType" name="type" />
+	<struct name="Physics3dComponentShapeInitData">
+		<field type="Physics3dShapeType" name="type" />
 		<field type="float3" name="boxSize" />
 		<field type="float" name="capsuleRadius" />
 		<field type="float" name="capsuleHeight" />
 		<field type="float" name="sphereRadius" />
 	</struct>
-	<struct name="PhysicsBodyComponentInitData">
+	<struct name="Physics3dBodyComponentInitData">
 		<field type="float3" name="position" />
 		<field type="float" name="mass" />
 		<field type="bool" name="freeRotation" />
-		<field type="PhysicsComponentShapeInitData" name="shape" />
+		<field type="Physics3dComponentShapeInitData" name="shape" />
 	</struct>
-	<struct name="PhysicsColliderComponentInitData">
+	<struct name="Physics3dColliderComponentInitData">
 		<field type="float3" name="position" />
-		<field type="PhysicsComponentShapeInitData" name="shape" />
+		<field type="Physics3dComponentShapeInitData" name="shape" />
 	</struct>
-	<struct name="PhysicsCharacterControllerComponentInitData">
+	<struct name="Physics3dCharacterControllerComponentInitData">
 		<field type="float3" name="position" />
 		<field type="float" name="gravity" />
-		<field type="PhysicsComponentShapeInitData" name="shape" />
+		<field type="Physics3dComponentShapeInitData" name="shape" />
 	</struct>
 </tikigenerictypes> 
