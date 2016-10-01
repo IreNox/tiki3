@@ -2,6 +2,8 @@
 
 local module = Module:new( "curl" );
 
+module.module_type = ModuleTypes.FilesModule;
+
 module:add_files( "include/**.h" );
 module:add_include_dir( "include" );
 module:add_include_dir( "include/curl" );

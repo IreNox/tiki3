@@ -2,7 +2,7 @@
 
 local module = Module:new( "freetype" );
 
-module.module_type = ModuleTypes.UnityCModule;
+module.module_type = ModuleTypes.FilesModule;
 
 module:add_files( "freetype.lua" );
 module:add_files( "zerror.c" );
