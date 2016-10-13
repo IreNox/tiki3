@@ -1,4 +1,9 @@
 <tikigenerictypes base="base">
+	<enum name="Physics2dComponentType">
+		<value name="Body" value="{crc Physics2dBodyComponent}" />
+		<value name="Collider" value="{crc Physics2dColliderComponent}" />
+		<value name="Joint" value="{crc Physics2dJointComponent}" />
+	</enum>
 	<enum name="Physics2dShapeType">
 		<value name="Box" />
 		<value name="Circle" />
@@ -25,7 +30,7 @@
 		<field type="float" name="density" />
 		<field type="float" name="friction" />
 		<field type="bool" name="freeRotation" />
-		<field type="Physics3dComponentShapeInitData" name="shape" />
+		<field type="Physics2dComponentShapeInitData" name="shape" />
 	</struct>
 	<struct name="Physics2dColliderComponentInitData">
 		<field type="float2" name="position" />

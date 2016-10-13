@@ -1,0 +1,21 @@
+<tikigenerictypes base="base">
+	<enum name="Components2dType">
+		<value name="Transform" value="{crc Transform2dComponent}" />
+		<value name="Texture" value="{crc TextureComponent}" />
+	</enum>
+	<struct name="Transform2dComponentInitData">
+		<field type="float2" name="position" />
+		<field type="float" name="rotation" />
+		<field type="float2" name="scale">
+			<default>
+				<object type="float2">
+					<field name="x" type="float" value="1.0" />
+					<field name="y" type="float" value="1.0" />
+				</object>
+			</default>
+		</field>
+	</struct>
+	<struct name="TextureComponentInitData">
+		<field type="{reference Texture}" name="texture" />
+	</struct>
+</tikigenerictypes> 

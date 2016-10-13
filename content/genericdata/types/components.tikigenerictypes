@@ -1,19 +1,7 @@
 <tikigenerictypes base="base">
-	<struct name="TransformComponentInitData">
-		<field type="float3" name="position" />
-		<field type="float4" name="rotation" />
-		<field type="float3" name="scale" />
+	<struct name="ComponentInitData">
 	</struct>
-	<struct name="TerrainComponentInitData">
-		<field type="{reference Model}" name="model" />
-	</struct>
-	<struct name="StaticModelComponentInitData">
-		<field type="{reference Model}" name="model" />
-	</struct>
-	<struct name="SkinnedModelComponentInitData">
-		<field type="{reference Model}" name="model" />
-	</struct>
-	<struct name="LifeTimeComponentInitData">
+	<struct name="LifeTimeComponentInitData" base="ComponentInitData">
 		<field type="timems" name="lifeTimeInMs" />
 	</struct>
 </tikigenerictypes> 
