@@ -1,4 +1,4 @@
-<tikigenerictypes base="base">
+<tikigenerictypes base="components">
 	<enum name="Components2dType">
 		<value name="Transform" value="{crc Transform2dComponent}" />
 		<value name="Texture" value="{crc TextureComponent}" />

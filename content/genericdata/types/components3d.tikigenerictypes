@@ -1,4 +1,4 @@
-<tikigenerictypes base="base">
+<tikigenerictypes base="components">
 	<struct name="Transform3dComponentInitData">
 		<field type="float3" name="position" />
 		<field type="float4" name="rotation" />
