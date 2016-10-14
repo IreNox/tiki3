@@ -1,4 +1,4 @@
-<tikigenerictypes base="base">
+<tikigenerictypes base="components">
 	<enum name="Physics2dComponentType">
 		<value name="Body" value="{crc Physics2dBodyComponent}" />
 		<value name="Collider" value="{crc Physics2dColliderComponent}" />
@@ -14,7 +14,7 @@
 		<value name="Revolute" />
 	</enum>
 	<struct name="Physics2dComponentShapeInitData">
-		<field type="Physics3dShapeType" name="type" />
+		<field type="Physics2dShapeType" name="type" />
 		<field type="float3" name="boxSize">
 			<filter fieldName="type" value="{enum Physics2dShapeType.Box}" />
 		</field>
@@ -25,7 +25,7 @@
 			<filter fieldName="type" value="{enum Physics2dShapeType.Polygon}" />
 		</field>
 	</struct>
-	<struct name="Physics2dBodyComponentInitData">
+	<struct name="Physics2dBodyComponentInitData" base="ComponentInitData">
 		<field type="float2" name="position" />
 		<field type="float" name="density" />
 		<field type="float" name="friction" />
