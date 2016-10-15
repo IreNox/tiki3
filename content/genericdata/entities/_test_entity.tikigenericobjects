@@ -7,10 +7,8 @@
 						<object type="EntityComponent">
 							<field type="crc32" name="componentType" value="{enum Components2dType.Transform}" />
 							<field type="{pointer ComponentInitData}" name="initData">
-								<pointer type="ComponentInitData">
-									<object type="Transform2dComponentInitData">
-									</object>
-								</pointer>
+								<object type="Transform2dComponentInitData">
+								</object>
 							</field>
 						</object>
 					</element>
@@ -18,11 +16,9 @@
 						<object type="EntityComponent">
 							<field type="crc32" name="componentType" value="{enum Components2dType.Texture}" />
 							<field type="{pointer ComponentInitData}" name="initData">
-								<pointer type="ComponentInitData">
-									<object type="TextureComponentInitData" name="component1_initdata">
-										<field type="{reference Texture}" name="texture" value="TEXR:test_diffuse.texture" />
-									</object>								
-								</pointer>
+								<object type="TextureComponentInitData" name="component1_initdata">
+									<field type="{reference Texture}" name="texture" value="TEXR:test_diffuse.texture" />
+								</object>								
 							</field>
 						</object>
 					</element>
@@ -30,28 +26,26 @@
 						<object type="EntityComponent">
 							<field type="crc32" name="componentType" value="{enum Physics2dComponentTypes.Body}" />
 							<field type="{pointer ComponentInitData}" name="initData">
-								<pointer type="ComponentInitData">
-									<object type="Physics2dBodyComponentInitData" name="component2_initdata">
-										<field type="float" name="density" value="10.0" />
-										<field type="float" name="friction" value="1.0" />
-										<field type="bool" name="freeRotation" value="true" />
-										<field type="Physics2dComponentShapeInitData" name="shape">
-											<object type="Physics2dComponentShapeInitData">
-												<field type="Physics2dShapeType" name="type" value="{enum Physics2dShapeType.Polygon}" />
-												<field type="{array float2}" name="vertices">
-													<array type="float2">
-														<element type="float2">
-															<object type="float2">
-																<field name="x" type="float" value="1.0" />
-																<field name="y" type="float" value="1.0" />
-															</object>
-														</element>
-													</array>
-												</field>
-											</object>
-										</field>
-									</object>								
-								</pointer>
+								<object type="Physics2dBodyComponentInitData" name="component2_initdata">
+									<field type="float" name="density" value="10.0" />
+									<field type="float" name="friction" value="1.0" />
+									<field type="bool" name="freeRotation" value="true" />
+									<field type="Physics2dComponentShapeInitData" name="shape">
+										<object type="Physics2dComponentShapeInitData">
+											<field type="Physics2dShapeType" name="type" value="{enum Physics2dShapeType.Polygon}" />
+											<field type="{array float2}" name="vertices">
+												<array type="float2">
+													<element type="float2">
+														<object type="float2">
+															<field name="x" type="float" value="1.0" />
+															<field name="y" type="float" value="1.0" />
+														</object>
+													</element>
+												</array>
+											</field>
+										</object>
+									</field>
+								</object>								
 							</field>
 						</object>
 					</element>
