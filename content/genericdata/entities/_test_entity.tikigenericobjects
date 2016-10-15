@@ -5,7 +5,7 @@
 				<array type="EntityComponent">
 					<element type="EntityComponent">
 						<object type="EntityComponent">
-							<field type="crc32" name="type" value="{enum Components2dType.Transform}" />
+							<field type="crc32" name="componentType" value="{enum Components2dType.Transform}" />
 							<field type="{pointer ComponentInitData}" name="initData">
 								<pointer type="ComponentInitData">
 									<object type="Transform2dComponentInitData">
@@ -16,7 +16,7 @@
 					</element>
 					<element type="EntityComponent">
 						<object type="EntityComponent">
-							<field type="crc32" name="type" value="{enum Components2dType.Texture}" />
+							<field type="crc32" name="componentType" value="{enum Components2dType.Texture}" />
 							<field type="{pointer ComponentInitData}" name="initData">
 								<pointer type="ComponentInitData">
 									<object type="TextureComponentInitData" name="component1_initdata">
@@ -28,7 +28,7 @@
 					</element>
 					<element type="EntityComponent">
 						<object type="EntityComponent">
-							<field type="crc32" name="type" value="{enum Physics2dComponentTypes.Body}" />
+							<field type="crc32" name="componentType" value="{enum Physics2dComponentTypes.Body}" />
 							<field type="{pointer ComponentInitData}" name="initData">
 								<pointer type="ComponentInitData">
 									<object type="Physics2dBodyComponentInitData" name="component2_initdata">
