@@ -1,6 +1,6 @@
 <tikigenericobjects>
   <resource type="EntityTemplate">
-    <object type="EntityTemplate">
+    <object type="EntityTemplateData">
       <field type="{array EntityComponent}" name="components">
         <array type="EntityComponent">
           <element type="EntityComponent">

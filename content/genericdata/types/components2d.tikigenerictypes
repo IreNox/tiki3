@@ -7,12 +7,12 @@
 		<field type="float2" name="position" />
 		<field type="float" name="rotation" />
 		<field type="float2" name="scale">
-			<default>
+			<value>
 				<object type="float2">
 					<field name="x" type="float" value="1.0" />
 					<field name="y" type="float" value="1.0" />
 				</object>
-			</default>
+			</value>
 		</field>
 	</struct>
 	<struct name="TextureComponentInitData">
