@@ -32,13 +32,13 @@
 		<field type="bool" name="freeRotation" />
 		<field type="Physics2dComponentShapeInitData" name="shape" />
 	</struct>
-	<struct name="Physics2dColliderComponentInitData">
+	<struct name="Physics2dColliderComponentInitData" base="ComponentInitData">
 		<field type="float2" name="position" />
 		<field type="float" name="density" />
 		<field type="float" name="friction" />
 		<field type="Physics2dComponentShapeInitData" name="shape" />
 	</struct>
-	<struct name="Physics2dJointComponentInitData">
+	<struct name="Physics2dJointComponentInitData" base="ComponentInitData">
 		<field type="Physics2dJointType" name="type" />
 		<field type="uint32" name="object1Index">
 			<picker type="ComponentIndexPicker" />

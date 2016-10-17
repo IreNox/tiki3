@@ -1,16 +1,16 @@
 <tikigenerictypes base="components">
-	<struct name="Transform3dComponentInitData">
+	<struct name="Transform3dComponentInitData" base="ComponentInitData">
 		<field type="float3" name="position" />
 		<field type="float4" name="rotation" />
 		<field type="float3" name="scale" />
 	</struct>
-	<struct name="TerrainComponentInitData">
+	<struct name="TerrainComponentInitData" base="ComponentInitData">
 		<field type="{reference Model}" name="model" />
 	</struct>
-	<struct name="StaticModelComponentInitData">
+	<struct name="StaticModelComponentInitData" base="ComponentInitData">
 		<field type="{reference Model}" name="model" />
 	</struct>
-	<struct name="SkinnedModelComponentInitData">
+	<struct name="SkinnedModelComponentInitData" base="ComponentInitData">
 		<field type="{reference Model}" name="model" />
 	</struct>
 </tikigenerictypes> 

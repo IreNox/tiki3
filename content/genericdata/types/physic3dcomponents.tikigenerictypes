@@ -1,27 +1,27 @@
-<tikigenerictypes base="base">
+<tikigenerictypes base="components">
 	<enum name="Physics3dShapeType">
 		<value name="Box" />
 		<value name="Capsule" />
 		<value name="Sphere" />
 	</enum>
-	<struct name="Physics3dComponentShapeInitData">
+	<struct name="Physics3dComponentShapeInitData" base="ComponentInitData">
 		<field type="Physics3dShapeType" name="type" />
 		<field type="float3" name="boxSize" />
 		<field type="float" name="capsuleRadius" />
 		<field type="float" name="capsuleHeight" />
 		<field type="float" name="sphereRadius" />
 	</struct>
-	<struct name="Physics3dBodyComponentInitData">
+	<struct name="Physics3dBodyComponentInitData" base="ComponentInitData">
 		<field type="float3" name="position" />
 		<field type="float" name="mass" />
 		<field type="bool" name="freeRotation" />
 		<field type="Physics3dComponentShapeInitData" name="shape" />
 	</struct>
-	<struct name="Physics3dColliderComponentInitData">
+	<struct name="Physics3dColliderComponentInitData" base="ComponentInitData">
 		<field type="float3" name="position" />
 		<field type="Physics3dComponentShapeInitData" name="shape" />
 	</struct>
-	<struct name="Physics3dCharacterControllerComponentInitData">
+	<struct name="Physics3dCharacterControllerComponentInitData" base="ComponentInitData">
 		<field type="float3" name="position" />
 		<field type="float" name="gravity" />
 		<field type="Physics3dComponentShapeInitData" name="shape" />
