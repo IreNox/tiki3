@@ -23,7 +23,7 @@
           </element>
           <element type="EntityComponent">
             <object type="EntityComponent">
-              <field type="crc32" name="componentType" value="{enum Physics2dComponentTypes.Body}" />
+              <field type="crc32" name="componentType" value="{enum Physics2dComponentType.Body}" />
               <field type="{pointer ComponentInitData}" name="initData">
                 <object type="Physics2dBodyComponentInitData">
                   <field type="float" name="density" value="10.0" />
