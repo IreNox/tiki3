@@ -15,7 +15,7 @@
 	</enum>
 	<struct name="Physics2dComponentShapeInitData">
 		<field type="Physics2dShapeType" name="type" />
-		<field type="float3" name="boxSize">
+		<field type="float2" name="boxSize">
 			<filter fieldName="type" value="{enum Physics2dShapeType.Box}" />
 		</field>
 		<field type="float" name="circleRadius">

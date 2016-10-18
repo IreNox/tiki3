@@ -1,0 +1,11 @@
+<tikigenerictypes base="components">
+	<enum name="MechanicaComponentType">
+		<value name="PlayerControl" value="{crc PlayerControlComponent}" />
+		<value name="Wiggle" value="{crc WiggleComponent}" />
+	</enum>
+	<struct name="PlayerControlComponentInitData" base="ComponentInitData">
+		<field type="float" name="speed" />
+	</struct>
+	<struct name="WiggleComponentInitData" base="ComponentInitData">
+	</struct>
+</tikigenerictypes> 

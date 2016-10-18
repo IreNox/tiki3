@@ -1,0 +1,8 @@
+<tikigenerictypes base="components">
+	<struct name="Player3dControlComponentInitData" base="ComponentInitData">
+		<field type="float" name="speed" />
+	</struct>
+	<struct name="CoinComponentInitData" base="ComponentInitData">
+		<field type="float" name="value" />
+	</struct>
+</tikigenerictypes> 
