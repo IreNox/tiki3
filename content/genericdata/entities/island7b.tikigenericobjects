@@ -42,146 +42,8 @@
                           </element>
                           <element type="float2">
                             <object type="float2">
-                              <field type="float" name="x" value="2.923453" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="4.833453" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="5.543453" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="5.893453" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.103453" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.233453" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.323452" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.383452" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.433453" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.473453" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.503453" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.533453" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.553452" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.573452" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.593452" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.613452" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.633452" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.653452" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.673452" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.693453" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.713453" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="6.733453" />
-                              <field type="float" name="y" value="-1.564001" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
                               <field type="float" name="x" value="6.123453" />
                               <field type="float" name="y" value="-0.8540013" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="5.373453" />
-                              <field type="float" name="y" value="-0.004001312" />
                             </object>
                           </element>
                           <element type="float2">
@@ -192,38 +54,8 @@
                           </element>
                           <element type="float2">
                             <object type="float2">
-                              <field type="float" name="x" value="2.243453" />
-                              <field type="float" name="y" value="2.355999" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="1.443453" />
-                              <field type="float" name="y" value="3.005998" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="1.303453" />
-                              <field type="float" name="y" value="3.115999" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="1.283453" />
-                              <field type="float" name="y" value="3.135998" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
                               <field type="float" name="x" value="1.263453" />
                               <field type="float" name="y" value="3.145998" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="-0.9965472" />
-                              <field type="float" name="y" value="2.055999" />
                             </object>
                           </element>
                           <element type="float2">
@@ -240,50 +72,8 @@
                           </element>
                           <element type="float2">
                             <object type="float2">
-                              <field type="float" name="x" value="-4.816547" />
-                              <field type="float" name="y" value="-0.04400131" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="-5.466547" />
-                              <field type="float" name="y" value="-0.3640013" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="-5.606547" />
-                              <field type="float" name="y" value="-0.4340013" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="-5.666547" />
-                              <field type="float" name="y" value="-0.4640013" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="-6.396547" />
-                              <field type="float" name="y" value="-0.3840013" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="-6.576547" />
-                              <field type="float" name="y" value="-0.3640013" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
                               <field type="float" name="x" value="-6.676547" />
                               <field type="float" name="y" value="-0.3640013" />
-                            </object>
-                          </element>
-                          <element type="float2">
-                            <object type="float2">
-                              <field type="float" name="x" value="-8.486547" />
-                              <field type="float" name="y" value="-1.544001" />
                             </object>
                           </element>
                         </array>
@@ -291,6 +81,14 @@
                     </object>
                   </field>
                 </object>
+              </field>
+            </object>
+          </element>
+          <element type="EntityComponent">
+            <object type="EntityComponent">
+              <field type="crc32" name="componentType" value="{enum MechanicaComponentType.Wiggle}" />
+              <field type="{pointer ComponentInitData}" name="initData">
+                <object type="WiggleComponentInitData" />
               </field>
             </object>
           </element>

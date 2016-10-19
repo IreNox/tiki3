@@ -24,7 +24,7 @@ namespace tiki
 			const char* pFilename = iterator.getCurrentFileName();
 			const uint filenameSize = getStringSize( pFilename );
 
-			GamebuildFile* pFile = (GamebuildFile*)TIKI_MEMORY_ALLOC( sizeof( GamebuildFile ) + filenameSize );
+			GamebuildFile* pFile = (GamebuildFile*)TIKI_ALLOC( sizeof( GamebuildFile ) + filenameSize );
 			*pFile = GamebuildFile();
 			pFile->filenameCrc = crcString( pFilename );
 			copyString( pFile->aFileName, filenameSize + 1, pFilename );

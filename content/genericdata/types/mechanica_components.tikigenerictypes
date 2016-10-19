@@ -1,9 +1,9 @@
 <tikigenerictypes base="components">
 	<enum name="MechanicaComponentType">
-		<value name="PlayerControl" value="{crc PlayerControlComponent}" />
+		<value name="Player" value="{crc PlayerComponent}" />
 		<value name="Wiggle" value="{crc WiggleComponent}" />
 	</enum>
-	<struct name="PlayerControlComponentInitData" base="ComponentInitData">
+	<struct name="PlayerComponentInitData" base="ComponentInitData">
 		<field type="float" name="speed" />
 	</struct>
 	<struct name="WiggleComponentInitData" base="ComponentInitData">

@@ -1,5 +1,5 @@
 <tikigenerictypes base="components">
-	<enum name="Physics3dShapeType">
+	<enum name="Physics3dShapeType" base="uint32">
 		<value name="Box" />
 		<value name="Capsule" />
 		<value name="Sphere" />
