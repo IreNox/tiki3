@@ -13,6 +13,7 @@ namespace tiki
 
 		ComponentState*	pPrevComponentOfSameType;
 		ComponentState*	pNextComponentOfSameType;
+		ComponentState*	pPrevComponentOfSameEntity;
 		ComponentState*	pNextComponentOfSameEntity;
 	};
 }

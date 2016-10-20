@@ -75,6 +75,11 @@ namespace tiki
 				return false;
 			}
 
+			if( !checkStateIntegrity( pState->pPrevComponentOfSameEntity ) )
+			{
+				return false;
+			}
+
 			if ( !checkStateIntegrity( pState->pNextComponentOfSameEntity ) )
 			{
 				return false;
