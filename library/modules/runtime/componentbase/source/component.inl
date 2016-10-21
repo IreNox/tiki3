@@ -8,12 +8,17 @@ namespace tiki
 	{
 		TIKI_ASSERT( pComponentState != nullptr );
 
+		if (!internalInitializeState( componentIterator, (TState*)pComponentState, (TInitData*)pComponentInitData ))
+		{
+			return false;
+		}
+
 		if ( m_pFirstComponentState == nullptr )
 		{
 			m_pFirstComponentState	= pComponentState;
 		}
 				
-		return internalInitializeState( componentIterator, (TState*)pComponentState, (TInitData*)pComponentInitData );
+		return true;
 	}
 		
 	template< typename TState, typename TInitData >
