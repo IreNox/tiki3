@@ -44,7 +44,7 @@ namespace tiki
 			GamebuildFile& file = *m_files.getBegin();
 			m_files.removeSortedByValue( file );
 
-			TIKI_MEMORY_FREE( &file );
+			TIKI_FREE( &file );
 		}
 
 		m_fileStreams.dispose();
