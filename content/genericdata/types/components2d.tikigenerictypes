@@ -17,6 +17,7 @@
 	</struct>
 	<struct name="TextureComponentInitData" base="ComponentInitData">
 		<field type="{reference Texture}" name="texture" />
+		<field type="float2" name="offset" />
 		<field type="uint32" name="layerId" />
 	</struct>
 </tikigenerictypes> 

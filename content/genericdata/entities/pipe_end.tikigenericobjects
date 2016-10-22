@@ -17,6 +17,13 @@
               <field type="{pointer ComponentInitData}" name="initData">
                 <object type="TextureComponentInitData">
                   <field type="{reference Texture}" name="texture" value="TEXR:pipe_end.texture" />
+                  <field type="float2" name="offset">
+                    <object type="float2">
+                      <field type="float" name="x" value="-0.7504654" />
+                      <field type="float" name="y" value="0.1371749" />
+                    </object>
+                  </field>
+                  <field type="uint32" name="layerId" value="5" />
                 </object>
               </field>
             </object>
