@@ -19,8 +19,8 @@
                   <field type="{reference Texture}" name="texture" value="TEXR:movingplatformsmall.texture" />
                   <field type="float2" name="offset">
                     <object type="float2">
-                      <field type="float" name="x" value="0.006033795" />
-                      <field type="float" name="y" value="0.04410257" />
+                      <field type="float" name="x" value="-0.009125977" />
+                      <field type="float" name="y" value="-0.001877289" />
                     </object>
                   </field>
                   <field type="uint32" name="layerId" value="5" />

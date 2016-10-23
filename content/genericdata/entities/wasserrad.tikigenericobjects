@@ -19,8 +19,8 @@
                   <field type="{reference Texture}" name="texture" value="TEXR:wasserrad.texture" />
                   <field type="float2" name="offset">
                     <object type="float2">
-                      <field type="float" name="x" value="0.732782" />
-                      <field type="float" name="y" value="0.405335" />
+                      <field type="float" name="x" value="0.02139099" />
+                      <field type="float" name="y" value="-0.1123325" />
                     </object>
                   </field>
                   <field type="uint32" name="layerId" value="5" />

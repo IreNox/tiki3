@@ -19,8 +19,8 @@
                   <field type="{reference Texture}" name="texture" value="TEXR:bridge.texture" />
                   <field type="float2" name="offset">
                     <object type="float2">
-                      <field type="float" name="x" value="0.03526726" />
-                      <field type="float" name="y" value="0.0402384" />
+                      <field type="float" name="x" value="0.02063354" />
+                      <field type="float" name="y" value="-0.4443808" />
                     </object>
                   </field>
                   <field type="uint32" name="layerId" value="5" />

@@ -19,8 +19,8 @@
                   <field type="{reference Texture}" name="texture" value="TEXR:islandd2c.texture" />
                   <field type="float2" name="offset">
                     <object type="float2">
-                      <field type="float" name="x" value="0.4980205" />
-                      <field type="float" name="y" value="0.1759422" />
+                      <field type="float" name="x" value="0.04026024" />
+                      <field type="float" name="y" value="0.2079711" />
                     </object>
                   </field>
                   <field type="uint32" name="layerId" value="5" />

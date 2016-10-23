@@ -19,8 +19,8 @@
                   <field type="{reference Texture}" name="texture" value="TEXR:islando2b.texture" />
                   <field type="float2" name="offset">
                     <object type="float2">
-                      <field type="float" name="x" value="-0.2515869" />
-                      <field type="float" name="y" value="1.098295" />
+                      <field type="float" name="x" value="0.1935815" />
+                      <field type="float" name="y" value="0.5216475" />
                     </object>
                   </field>
                   <field type="uint32" name="layerId" value="5" />
