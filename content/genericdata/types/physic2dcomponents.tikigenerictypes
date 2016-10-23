@@ -30,12 +30,14 @@
 		<field type="float" name="density" />
 		<field type="float" name="friction" />
 		<field type="bool" name="freeRotation" />
+		<field type="uint32" name="materialId" />
 		<field type="Physics2dComponentShapeInitData" name="shape" />
 	</struct>
 	<struct name="Physics2dColliderComponentInitData" base="ComponentInitData">
 		<field type="float2" name="position" />
 		<field type="float" name="density" />
 		<field type="float" name="friction" />
+		<field type="uint32" name="materialId" />
 		<field type="Physics2dComponentShapeInitData" name="shape" />
 	</struct>
 	<struct name="Physics2dJointComponentInitData" base="ComponentInitData">

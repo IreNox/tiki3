@@ -1,4 +1,14 @@
 <tikigenerictypes base="components">
+	<enum name="MechanicaMaterialId">
+		<value name="Charakter" />
+		<value name="Chain" />
+		<value name="Gear" />
+		<value name="Island" />
+		<value name="Metal" />
+		<value name="Block" />
+		<value name="Slide" />
+		<value name="Wood" />
+	</enum>
 	<enum name="MechanicaComponentType">
 		<value name="Player" value="{crc PlayerComponent}" />
 		<value name="Wiggle" value="{crc WiggleComponent}" />
