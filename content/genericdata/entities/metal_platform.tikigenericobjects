@@ -19,8 +19,8 @@
                   <field type="{reference Texture}" name="texture" value="TEXR:metal_platform.texture" />
                   <field type="float2" name="offset">
                     <object type="float2">
-                      <field type="float" name="x" value="0.2296365" />
-                      <field type="float" name="y" value="-0.02187592" />
+                      <field type="float" name="x" value="-0.4592731" />
+                      <field type="float" name="y" value="0.04375183" />
                     </object>
                   </field>
                   <field type="uint32" name="layerId" value="5" />
