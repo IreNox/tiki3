@@ -4,7 +4,13 @@
 		<value name="Wiggle" value="{crc WiggleComponent}" />
 	</enum>
 	<struct name="PlayerComponentInitData" base="ComponentInitData">
-		<field type="float" name="speed" />
+		<field type="float" name="mass" value="20.0" />
+		<field type="float" name="maxSpeed" value="10.0" />
+		<field type="float" name="runSpeed" value="15.555" />
+		<field type="float" name="sideWalkSpeed" value="4.5" />
+		<field type="float" name="jumpImpulse" value="-18.0" />
+		<field type="float" name="friction" value="10.0" />
+		<field type="float" name="maxMotorTorque" value="2000.0" />		
 	</struct>
 	<struct name="WiggleComponentInitData" base="ComponentInitData">
 	</struct>

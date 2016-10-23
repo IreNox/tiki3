@@ -4,18 +4,19 @@
 
 namespace tiki
 {
-	ComponentBase::ComponentBase()
+	ComponentBase::ComponentBase( crc32 typeCrc, const char* pTypeName, uint32 stateSize, bool constructState )
+		: m_pFirstComponentState( nullptr )
+		, m_typeCrc( typeCrc )
+		, m_pTypeName( pTypeName )
+		, m_stateSize( stateSize )
+		, m_constuctState( constructState )
+		, m_registedTypeId( InvalidComponentTypeId )
 	{
-		m_pFirstComponentState	= nullptr;
-
-		m_registedTypeId = InvalidComponentTypeId;
 	}
 
 	ComponentBase::~ComponentBase()
 	{
 		TIKI_ASSERT( m_registedTypeId == InvalidComponentTypeId );
-
-		m_pFirstComponentState	= nullptr;
 	}
 
 	void ComponentBase::registerComponent( ComponentTypeId typeId )
@@ -27,10 +28,5 @@ namespace tiki
 	void ComponentBase::unregisterComponent()
 	{
 		m_registedTypeId = InvalidComponentTypeId;
-	}
-
-	crc32 ComponentBase::getTypeCrc() const
-	{
-		return crcString( getTypeName() );
 	}
 }

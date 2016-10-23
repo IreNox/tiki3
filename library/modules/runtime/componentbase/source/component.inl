@@ -1,15 +1,35 @@
+#pragma once
+#ifndef TIKI_COMPONENT_INL_INCLUDED
+#define TIKI_COMPONENT_INL_INCLUDED
 
 #include "tiki/base/assert.hpp"
+#include "tiki/base/memory.hpp"
 
 namespace tiki
 {
+	template< typename TState, typename TInitData >
+	Component<TState, TInitData>::Component( crc32 typeCrc, const char* pTypeName, uint32 stateSize, bool constructState )
+		: ComponentBase( typeCrc, pTypeName, stateSize, constructState )
+	{
+	}
+
 	template< typename TState, typename TInitData >
 	bool Component<TState, TInitData>::initializeState( ComponentEntityIterator& componentIterator, ComponentState* pComponentState, const void* pComponentInitData )
 	{
 		TIKI_ASSERT( pComponentState != nullptr );
 
-		if (!internalInitializeState( componentIterator, (TState*)pComponentState, (TInitData*)pComponentInitData ))
+		TState* pTypedComponentState = (TState*)pComponentState;
+		if( m_constuctState )
 		{
+			constructComponentState( pTypedComponentState );
+		}
+
+		if (!internalInitializeState( componentIterator, pTypedComponentState, (TInitData*)pComponentInitData ))
+		{
+			if( m_constuctState )
+			{
+				destructComponentState( pTypedComponentState );
+			}
 			return false;
 		}
 
@@ -31,7 +51,13 @@ namespace tiki
 			m_pFirstComponentState = m_pFirstComponentState->pNextComponentOfSameType;
 		}
 
-		internalDisposeState( (TState*)pComponentState );
+		TState* pTypedComponentState = (TState*)pComponentState;
+		internalDisposeState( pTypedComponentState );
+
+		if( m_constuctState )
+		{
+			destructComponentState( pTypedComponentState );
+		}
 	}
 
 #if TIKI_ENABLED( TIKI_BUILD_DEBUG )
@@ -58,7 +84,7 @@ namespace tiki
 	}
 
 	template< typename TState, typename TInitData >
-	bool tiki::Component<TState, TInitData>::checkIntegrity() const
+	bool Component<TState, TInitData>::checkIntegrity() const
 	{
 		ComponentTypeIterator< const ComponentState > iterator = ComponentTypeIterator< const ComponentState >( (const ComponentState*)m_pFirstComponentState );
 
@@ -107,3 +133,5 @@ namespace tiki
 		return ConstIterator( static_cast< const State* >( m_pFirstComponentState ) );
 	}
 }
+
+#endif // TIKI_COMPONENT_INL_INCLUDED
