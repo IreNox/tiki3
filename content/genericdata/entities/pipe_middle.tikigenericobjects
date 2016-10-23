@@ -36,6 +36,7 @@
                   <field type="float" name="density" value="10.0" />
                   <field type="float" name="friction" value="1.0" />
                   <field type="bool" name="freeRotation" value="true" />
+                  <field type="uint32" name="materialId" value="{enum MechanicaMaterialId.Island}" />
                   <field type="Physics2dComponentShapeInitData" name="shape">
                     <object type="Physics2dComponentShapeInitData">
                       <field type="Physics2dShapeType" name="type" value="{enum Physics2dShapeType.Polygon}" />
