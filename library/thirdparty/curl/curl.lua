@@ -28,13 +28,11 @@ module:add_files( "lib/vtls/*.c" );
 module:add_files( "lib/vtls/*.h" );
 
 module:add_files( "lib/strtoofft.c" );
-module:add_files( "lib/rawstr.c" );
 module:add_files( "lib/nonblock.c" );
 module:add_files( "lib/warnless.c" );
 module:add_files( "lib/config-win32.h" );
 module:add_files( "lib/curl_setup.h" );
 module:add_files( "lib/strtoofft.h" );
-module:add_files( "lib/rawstr.h" );
 module:add_files( "lib/nonblock.h" );
 module:add_files( "lib/warnless.h" );
 
